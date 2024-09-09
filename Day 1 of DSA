@@ -1,0 +1,42 @@
+/*package whatever //do not write package name here */
+
+import java.io.*;
+
+// class A {
+//     int i =4;
+// 	public static void main (String args[]) {
+// 	   // int i =4;
+// 	    A a1 = new A();
+// 	    A a2 = new A();
+// 		System.out.println(a1.i);
+// 		System.out.println(a2.i);
+// 	}
+// }
+
+// class A{
+//     int i =4;
+//     public static void main(String args[]){
+//         A a1 = new A();
+        
+//         a1.print();
+//     }
+//     void print(){
+//         int j =5;
+//         System.out.println(j);
+//         System.out.println(i);
+//     }
+// }
+class A{
+    int i =4;
+    public static void main(String args[]){
+        A a1 = new A();
+        
+        a1.print();
+    }
+    void print(){
+        int i =5;
+        System.out.println(this.i);
+       
+    }
+}
+
